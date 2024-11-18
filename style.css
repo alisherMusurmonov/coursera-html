@@ -1,45 +1,94 @@
-/* Style for the body tag */
+/* Skip to Main Content link */
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 1000;
+  text-decoration: none;
+}
+.skip-link:focus {
+  outline: 2px solid #fff;
+}
+
+/* Styling for the body tag */
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
-  
-  /* Style for the header tag */
-  header {
-    background-color: #333;
-  }
-  
-  /* Style for the nav tag */
-  nav {
-    background-color: #555;
-  }
-  
-  /* Style for the main tag */
-  main {
-    background-color: #f4f4f4;
-    font-size: 18px;
-  }
-  
-  /* Style for the footer tag */
-  footer {
-    background-color: #222;
-  }
-  
-  /* Style for the li tag */
-  li {
-    display: inline-block;
-    width: 150px;
-  }
-  
-  /* Style for the h1 tag */
-  h1 {
-    text-align: center;
-    font-family: 'Georgia', serif;
-    color: #444;
-  }
-  
-  /* Style for the p tag */
-  p {
-    line-height: 1.5;
-  }
-  
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Styling for the header tag */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styling for the nav tag */
+nav {
+  display: inline-block;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+nav img {
+  width: 10%;
+}
+
+/* Existing styling for li - Commented out */
+/*
+li {
+  display: inline-block;
+  width: 150px;
+}
+*/
+
+/* Styling for the main content */
+main {
+  background-color: #f4f4f4;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* Styling for the grid class */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20px;
+}
+.grid img {
+  width: 100%;
+}
+
+/* Styling for the flex class */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* Styling for the footer tag */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styling for the h1 tag */
+h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #444;
+}
+
+/* Styling for the p tag */
+p {
+  line-height: 1.5;
+}
